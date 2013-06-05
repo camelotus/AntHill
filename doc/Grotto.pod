@@ -1,0 +1,30 @@
+Grotto
+    head
+        Hello dear stranger, you are at the beginning of the story
+    /head
+
+    signPosts
+        signPost1
+            head
+            Here you see a stone with several strings on it
+            /head
+
+            sign1
+                head
+                    if you go left you'll find a ball
+                /head
+                goto grotto 1
+            /sign1
+
+            sign2
+                head
+                    if you go right you'll find a wall
+                /head
+                goto grotto 2
+
+            sign 3
+                head
+                    if you go forward you'll have breakfast
+                /head
+                goto grotto 3
+        /signPost1

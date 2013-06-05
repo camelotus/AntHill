@@ -1,0 +1,35 @@
+Library
+Int put(Object $object)
+    if isa
+        Chapeter save Chapter with id
+        Paragraph
+        Reference
+    return id
+
+Object get(Ref $object)
+    same as above
+    return Object
+        
+Item
+    Int id
+    Str name
+
+StoryWriter
+    edit -> edited = true
+
+Chapter
+    Int id
+    Str name
+    Str head
+    Int version
+    @Paragraphs
+
+Paragraph
+    Int id
+    Str body
+    @References
+
+Reference
+    Int id
+    Str action
+    $Chapter
